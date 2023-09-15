@@ -1,10 +1,8 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# starter kit
 
-# Adalab web starter kit
+Starter Kit creado en **node y gulp**. 
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
-
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. 
 
 En el Kit hay 3 tipos de ficheros y carpetas:
 
@@ -18,13 +16,6 @@ En el Kit hay 3 tipos de ficheros y carpetas:
 
 ### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
 1. **Instala las dependencias** locales ejecutando en la terminal el comando:
 
 ```bash
@@ -111,7 +102,6 @@ src
     └─ partials
 ```
 
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
 
 ## Vídeotutoriales del Starter kit
 
@@ -119,6 +109,4 @@ src
 - [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
 - [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
 
-## Falta algo?
 
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
