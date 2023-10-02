@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: rem(15);
+}
+
+.logo {
+  width: rem(130);
+  height: rem(80);
+  
+}
+
+.formSearch {
+  &__input {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid $fontColor;
+    outline: 0;
+    font-size: 1.3rem;
+    background: transparent;
+    transition: border-color 0.2s;
+    // box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    cursor: text;
+
+    &::placeholder {
+      color: $fontColor;
+      font-size: rem(16);
+    }
+
+    &:focus {
+      outline: none;
+      transform: scale(1.04);
+    }
+
+    &:focus::placeholder {
+      color: transparent;
+    }
+  }
+
+  &__label {
+    display: none;
+  }
+}
+
+.submitIcon{
+    color: $fontColor;
+    position: relative;
+    top: rem(-20);
+    right: -90%;
+    font-size: rem(20);
+}
+
+.favourite{
+    color: $fontColor;
+    font-size: rem(25);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0.5px 0px;
+}

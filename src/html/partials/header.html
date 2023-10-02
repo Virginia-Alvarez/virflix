@@ -1,10 +1,12 @@
-<header>
-    <img src="" alt="Imagen de la web Virflix">
-    <div>
-        <form action="">
-            <input type="text" placeholder="Search">
-            <input type="submit"> <!-- boton/input que luego será la lupita de buscar -->
+<header class="header">
+    <img class="logo" src="./assets/images/virflix-white.png" alt="Imagen de la web Virflix">
+    <div class="search-input">
+        <form class="formSearch" name="formSearch" action="post">
+            <label class="formSearch__label" for="">Search </label>
+            <input class="formSearch__input" type="text" placeholder="Search">
+            <input class="formSearch__submit" type="submit" hidden> 
+            <i class="fa-brands fa-searchengin fa-bounce submitIcon"></i>
         </form>
     </div>
-    <button>Favoritos</button>
+    <i class="fa-regular fa-heart favourite"></i>
 </header>

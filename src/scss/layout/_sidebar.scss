@@ -1,0 +1,13 @@
+.nav{
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    &__link{
+        list-style: none;
+        text-decoration: inherit;
+        color: $fontColor;
+    }
+}
