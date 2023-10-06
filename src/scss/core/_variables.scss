@@ -19,12 +19,10 @@ html{
   align-items: center;
 }
 
-// @mixin formatoTexto{
-//   font-size:10rem;
-//   color:white;
-// }
-// @include formatoTexto(); esto iria en el archivo css
-
+@mixin carousel{
+  display: flex;
+  flex-direction: row;
+}
 
 //colors
 

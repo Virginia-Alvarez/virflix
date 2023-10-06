@@ -1,0 +1,62 @@
+.carousel{
+    @include carousel();
+    cursor: pointer;
+    position: relative;
+    // overflow: hidden;
+
+
+    &__photo{
+        width: rem(150);
+        height: rem(150);
+        z-index: -3;
+    }
+
+    &__container{
+        display: inline;
+        vertical-align: top;
+        white-space: normal;
+        transition: 250ms all;
+        // padding: 0 4px;
+
+        &:hover{
+            margin: 0 30px;
+            transform: scale(1.2);
+            transform: translatey(-30px);
+            box-shadow: 1px 3px 15px #7645d8;
+        }
+    }
+
+    &__content{
+        color: #fff;
+        display: flex;
+        align-items: center;
+        // padding: 15px;
+        flex-direction: column;
+        height: 100%;
+        // background: rgb(2, 2, 46);
+        // background: linear-gradient(0deg,rgba(2, 2, 46, 0.6755077030812324) 0%,rgba(255, 255, 255, 0) 100%);
+        transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    }
+
+    &__info{
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        font-weight: 800;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        border-radius: 3px;
+        font-size: rem(13);
+        opacity: 0;
+        position: absolute;
+        height: 100%;
+
+        &:hover{
+            opacity: 1;
+            transform: translatey(15px);
+            z-index: 3;
+        }
+    }
+}
+
