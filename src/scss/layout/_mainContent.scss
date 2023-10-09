@@ -1,4 +1,5 @@
 .main{
     @include display();
     height: 100vh;
+    gap: 80px;
 }

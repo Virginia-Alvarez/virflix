@@ -1,4 +1,9 @@
-footer{
+.footer{
     display: flex;
     justify-content: center;
+
+    &__image{
+        width: rem(150);
+        height: rem(150);
+    }
 }
