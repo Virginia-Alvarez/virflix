@@ -58,7 +58,7 @@
         }
     }
 }
-//para distorsionar la imagen de fondo y se vea el titulo al hacer hover 
+//para distorsionar la imagen de fondo y se vea el titulo al hacer hover(pendiente arreglar con js evitando la propagacion)
 .carousel__container{
     filter: blur(0px);
     &:hover :not(span){
@@ -72,5 +72,11 @@
     display: inherit;
     justify-content: center;
     align-items: center;
+    font-family: $textFont;
+    font-size: rem(20);
+    // text-transform: uppercase;
+
 }
+
+//añadir dinamismo al carrusel y flechas con JS
 

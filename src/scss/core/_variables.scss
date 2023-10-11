@@ -5,6 +5,11 @@ $defaultFontSize: 16;
   @return ($pixels / $defaultFontSize * 1rem);
 }
 
+//font
+
+$titleFont: 'Poppins', sans-serif;
+$textFont: 'Gloria Hallelujah', cursive;
+
 //background
 html{
   background-image: url('../images/fondo1.jpg');

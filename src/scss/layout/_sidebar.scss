@@ -9,5 +9,7 @@
         list-style: none;
         text-decoration: none;
         color: $fontColor;
+        font-family: $titleFont;
+        font-size: rem(20);
     }
 }

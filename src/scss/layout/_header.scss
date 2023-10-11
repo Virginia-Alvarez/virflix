@@ -18,6 +18,7 @@
     width: 100%;
     border: 0;
     border-bottom: 2px solid $fontColor;
+    font-family: $titleFont;
     outline: 0;
     font-size: 1.3rem;
     background: transparent;
@@ -33,7 +34,7 @@
 
     &:focus {
       outline: none;
-      transform: scale(1.04);
+      transform: scale(1.1);
     }
 
     &:focus::placeholder {
@@ -59,16 +60,3 @@
     font-size: rem(25);
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0.5px 0px;
 }
-
-
-// padding: 7px;
-// border-radius: 6px;
-// font-size: 16px;
-// background: #fbfbfb;
-// border: 2px solid transparent;
-// height: 36px;
-// box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
-// :focus{
-//     border: 2px solid #000;
-//     border-radius: 4px;
-// }
