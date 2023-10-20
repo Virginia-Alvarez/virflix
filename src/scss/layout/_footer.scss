@@ -1,9 +1,12 @@
 .footer{
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
+    margin-top: auto;
+    text-align: center;
+    
 
     &__image{
-        width: rem(150);
-        height: rem(150);
+        width: rem(120);
+        height: rem(120);
     }
 }
